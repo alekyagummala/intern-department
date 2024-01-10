@@ -1,0 +1,148 @@
+@import "primeicons/primeicons.css";
+
+*{
+    margin:0;
+    box-sizing : border-box;
+    }
+.blocks{
+    display: flex;
+    
+}
+.blocks p{
+    margin: 30px;
+    padding: 20px;
+}
+.rating{
+    border: 1px rgb(235, 242, 242) solid;
+    box-shadow: 0 4px 8px rgba(161, 145, 145, 0.1);;
+    border-radius: 20px;
+    text-align: center;
+    
+   
+padding: 20px;
+}
+.icons{
+    display: flex;
+
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  th {
+    background-color:#cdf3f3;
+  }
+  .tables{
+    display:flexbox;
+    display: flex;
+  }
+  #scatter-plot {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+  }
+  
+  #x-axis-label, #y-axis-label {
+    font-family: sans-serif;
+    font-size: 12px;
+    position: absolute;
+  }
+  
+  #x-axis-label {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #y-axis-label {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .table{
+   
+    padding: 10px;
+    margin: 10px;
+  }
+.progress{
+    display: flex;
+}
+  .rail{
+    display: flex;
+    padding:2px;
+    margin:2px;
+  }
+  .border {
+    display: flex;
+    box-sizing: border-box;
+
+    padding: -24px; /* Adjusted padding */
+  
+    margin-bottom: -25px;
+  }
+  .border p{
+    padding: 10px;
+    margin-right: -29px;
+    
+  }
+  .border h6{
+    margin: 36px;
+  }
+  h4, h6 {
+    margin: 39px;
+    padding: 0;
+  }
+  
+  
+  #myChart {
+    width: 100%;
+    max-width: 600px;
+  }
+  .border1{
+    display: flex;
+  }
+  .custom-div {
+    width: 20px; /* Set the width to 200 pixels */
+    height: 30px; /* Set the height to 100 pixels */
+    background-color: #f0f0f0; /* Optional background color for visibility */
+}
+
+element.style {
+  width: 485px;
+  max-width: 619px;
+  display: block;
+  height: 187px;
+}
+
+#tb-g{
+ padding-top: 2px;
+  }
+  @media only screen and (max-width:500px){
+    .header,.blocks,.icons,.table,.tables{
+        flex-direction:coloumn;
+    }
+.graph{
+    display:none;
+}
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+  .header,.blocks,.icons,.table,.tables{
+        flex-direction:coloumn;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+  .header,.blocks,.icons,.table,.tables{
+        flex-direction:coloumn;
+    }
+} 
+
+@media only screen and (min-width:993px) and (max-width:1200px){
+  .header,.blocks,.icons,.table,.tables{
+        flex-direction:coloumn;
+    }
+.graph{
+    display:none;
+}
+}
